@@ -1,0 +1,10 @@
+POST http://localhost:3001/api/patients/
+Content-Type: application/json
+
+{
+  "name": "Juan Jose Briasco",
+  "dateOfBirth": "1999-07-07",
+  "gender": "male",
+  "occupation": "Software Engineer",
+  "ssn": "41850268"
+}
